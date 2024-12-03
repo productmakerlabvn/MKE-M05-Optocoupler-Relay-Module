@@ -38,6 +38,8 @@ Dựa vào nguyên lý hoạt động của Relay ta có thể sử dụng cặp
 
 ## Các chân tín hiệu
 
+![](/image/MKE_M05_4.jpg  )
+
 <table><thead>
   <tr>
     <th>MKE-M05</th>
@@ -88,7 +90,6 @@ Dựa vào nguyên lý hoạt động của Relay ta có thể sử dụng cặp
 </tbody>
 </table>
 
-
 ## Hướng dẫn sử dụng
 
 ### Các thiết bị sử dụng trong bài hướng dẫn
@@ -132,16 +133,19 @@ Dựa vào nguyên lý hoạt động của Relay ta có thể sử dụng cặp
 - Thêm Extension "Upload Mode Broadcast" by mBlock Official
 - Thêm Extension "MakerEdu Hardware" by MakerEduVN
 - Mở [chương trình mẫu tại đây](/mBlock5), kết nối MakerEdu Creator với máy tính và nạp chương trình.
-- Kết nối màn hình LCD vào cổng [I2C] trên MakerEdu Creator, cấp nguồn qua cổng USB của MakerEdu Creator để thấy chương trình hoạt động.
+- Kết nối màn hình LCD vào cổng [I2C] trên MakerEdu Creator,kết nối module nút nhấn MKE-M02 vào chân [D10] và module relay MKE-M05 vào chân [D11], cấp nguồn qua cổng USB của MakerEdu Creator để thấy chương trình hoạt động.
 
 ### Hướng dẫn lập trình với Micro:bit (kéo thả khối)
 
 [Hướng dẫn nạp chương trình, cài đặt Extension Micro:bit cơ bản.](https://github.com/makerlabvn/MakeCode-microbit)
 
 - Khởi động phần mềm MakeCode tại: [https://makecode.microbit.org/](https://makecode.microbit.org/)
-- Chọn My Projects / Import / Import URL theo đường link của chương trình mẫu: [https://github.com/devmakerlabvn/](https://github.com/devmakerlabvn/makecode-mke-s01-ultrasonic-distance-sensor)
+- Chọn My Projects / Import / Import URL theo đường link của chương trình mẫu:
+
+        https://github.com/devmakerlabvn/makecode-mke-m05-optocoupler-relay-module
+        
 - Kết nối Micro:bit với máy tính và nạp chương trình.
-- Kết nối mạch Micro:bit với MakerEdu Shield, màn hình LCD vào cổng [I2C] trên MakerEdu Shield, **cấp nguồn qua cổng USB của MakerEdu Shield** để thấy chương trình hoạt động.
+- Kết nối mạch Micro:bit với MakerEdu Shield, màn hình LCD vào cổng [I2C] trên MakerEdu Shield, kết nối mạch relay MKE-M05 vào chân [P0], **cấp nguồn qua cổng USB của MakerEdu Shield** để thấy chương trình hoạt động.
 
 ## Hỗ trợ và liên hệ
 
